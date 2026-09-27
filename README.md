@@ -8,27 +8,6 @@ Program Java sederhana yang mencatat pesanan menu kantin, dipakai untuk membukti
 
 ```
 src/          kode program (package model & app)
-eksperimen/   percobaan sengaja-gagal (private vs public, constructor, static, dll)
-scripts/      skrip untuk regenerate bukti eksperimen
-bukti/        output program + error compiler (hasil dari scripts/jalankan_bukti.sh)
-laporan/      laporan praktikum lengkap (.docx)
+eksperimen/   percobaan sengaja-gagal 
 ```
 
-## Menjalankan program
-
-```bash
-javac -d out $(find src -name "*.java")
-java -cp out id.ac.polban.pbo.kantin.app.Main
-```
-
-## Regenerate bukti eksperimen
-
-```bash
-./scripts/jalankan_bukti.sh
-```
-
-Output ditulis ke `bukti/`.
-
-## Laporan lengkap
-
-Penjelasan konsep, tabel hasil uji, dan analisis eksperimen ada di [`laporan/Laporan_Praktikum_Pertemuan3.docx`](laporan/Laporan_Praktikum_Pertemuan3.docx).
